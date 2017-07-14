@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #!/usr/bin/python
 
 # Copyright (c) 2010-2013 Roger Light <roger@atchoo.org>
@@ -57,7 +59,7 @@ mqttc.on_publish = on_publish
 mqttc.on_subscribe = on_subscribe
 # Uncomment to enable debug messages
 #mqttc.on_log = on_log
-mqttc.connect(“192.168.1.91”, 1883, 60)
+mqttc.connect("192.168.1.91", 1883, 60)
 mqttc.subscribe("message", 0)
 
 
