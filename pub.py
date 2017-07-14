@@ -29,4 +29,4 @@ except ImportError:
         sys.path.insert(0, cmd_subfolder)
     import paho.mqtt.publish as publish
 
-publish.single("message", "Hello MQTT!", hostname="HOST NAME")
+publish.single("message", “SRC:raspi001 DSR:MAC01 COMMAND:What time is it now?”, hostname=“192.168.1.91”)
