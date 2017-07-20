@@ -63,5 +63,5 @@ mqttc.connect("192.168.1.78", 1883, 60)
 mqttc.subscribe("message", 0)
 
 
-mqttc.loop_forever()
+#mqttc.loop_forever()
 
