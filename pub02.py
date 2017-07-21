@@ -14,7 +14,7 @@ client.on_message = on_message
  
 client.tls_set("/etc/ssl/certs/ca-certificates.crt")
  
-client.username_pw_set("cloudMQTTのユーザ名", "パスワード")
-client.connect("cloudMQTTのURL", SSLポート番号)
+client.username_pw_set("eylfzska", "qLgkVNLRbpD6")
+client.connect("m12.cloudmqtt.com", 25313)
  
 client.loop_forever()
