@@ -17,6 +17,6 @@ client.on_connect = on_connect
 client.on_disconnect = on_disconnect
 client.on_message = on_message
  
-client.connect("192.168.1.54", 1883, 60) 
+client.connect("192.168.1.78", 1883, 60) 
  
 client.loop_forever()
